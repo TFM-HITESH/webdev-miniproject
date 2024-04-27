@@ -79,7 +79,7 @@ figure {
   float: left;
   width: 300px;
   position: fixed;
-  overflow-y: scroll;
+  overflow-y: hidden;
   z-index: 1001;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
@@ -136,7 +136,7 @@ figure {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
@@ -381,8 +381,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   clear: both;
   width: 100%;
   display: block; }
@@ -405,8 +405,8 @@ body.offcanvas {
   position: relative; }
 
 .colorlib-heading {
-  font-size: 18px;
-  margin-bottom: 4em;
+  font-size: 3rem;
+  margin-bottom: 1em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -421,7 +421,7 @@ body.offcanvas {
 .heading-meta {
   margin-bottom: 15px;
   display: block;
-  font-size: 10px;
+  font-size: 2rem;
   text-transform: uppercase;
   color: #999999;
   font-weight: 500;
@@ -438,6 +438,10 @@ body.offcanvas {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 500; }
+
+.about-desc p {
+  font-size: 16px;
+}
 
 .hire {
   padding: 2em;
@@ -459,7 +463,7 @@ body.offcanvas {
   display: block;
   width: 100%;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Quicksand", Arial, sans-serif;
@@ -699,6 +703,10 @@ body.offcanvas {
       font-size: 16px;
       font-weight: 700;
       text-transform: uppercase; }
+    .services .desc p {
+      font-size: 14px;
+    }
+    
   .services.color-2 .icon {
     background: #ec5453; }
     .services.color-2 .icon:before {
@@ -848,7 +856,7 @@ body.offcanvas {
       font-weight: 500;
       margin-bottom: 20px;
       color: rgba(0, 0, 0, 0.7);
-      font-size: 14px;
+      font-size: 16px;
       letter-spacing: 3px;
       text-transform: uppercase; }
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
